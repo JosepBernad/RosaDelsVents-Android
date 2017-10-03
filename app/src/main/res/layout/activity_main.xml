@@ -20,7 +20,8 @@
             android:layout_marginEnd="40dp"
             android:layout_marginStart="40dp"
             android:text="Level 1"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:onClick="level1ButtonPressed"/>
         <Button
             android:id="@+id/buttonLevel2"
             android:layout_width="500dp"
@@ -29,7 +30,8 @@
             android:layout_marginStart="40dp"
             android:layout_marginBottom="5dp"
             android:textAllCaps="false"
-            android:text="Level 2"/>
+            android:text="Level 2"
+            android:onClick="level2ButtonPressed"/>
         <Button
             android:id="@+id/buttonLevel3"
             android:layout_width="500dp"
@@ -37,7 +39,8 @@
             android:layout_marginEnd="40dp"
             android:layout_marginStart="40dp"
             android:textAllCaps="false"
-            android:text="Level 3" />
+            android:text="Level 3"
+            android:onClick="level3ButtonPressed"/>
 
         
     </LinearLayout>
